@@ -1,10 +1,11 @@
 import React from "react";
 import { MdAlternateEmail, MdOutlineLocationOn } from "react-icons/md";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import "../styles/aboutMe.css";
 
-export default function Header() {
+export default function AboutMe() {
   return (
-    <header>
+    <section>
       <h1>Musa Yuksel</h1>
       <p>Full Stack Web Developer</p>
       <section className="contact-infos">
@@ -37,6 +38,6 @@ export default function Header() {
           </a>
         </div>
       </section>
-    </header>
+    </section>
   );
 }
