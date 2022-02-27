@@ -8,6 +8,25 @@
   width: 95%;
   margin: auto;
 }
+/* header styles */
+.contact-infos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1rem 0;
+}
+.contact-infos div {
+  display: flex;
+  align-items: center;
+}
+.contact-infos a,
+.contact-infos p {
+  color: var(--primary-color);
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.contact-infos svg {
+  color: var(--secondary-color);
+}
 /*experience card styles  */
 .experience-card {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -54,4 +73,9 @@ ul.skills-container li {
 ul.explanation-container {
   font-weight: 300;
   padding-left: 1rem;
+}
+@media only screen and (max-width: 900px) {
+  .contact-infos {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
