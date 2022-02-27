@@ -5,9 +5,14 @@ import "../styles/aboutMe.css";
 
 export default function AboutMe() {
   return (
-    <section>
-      <h1>Musa Yuksel</h1>
-      <p>Full Stack Web Developer</p>
+    <section className="aboutme" id="about">
+      <h3>About me</h3>
+      <p className="aboutme-text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eligendi
+        harum itaque cumque nihil, enim possimus, eos qui porro aspernatur
+        dignissimos impedit officia labore sit dolorum minima explicabo soluta
+        placeat!
+      </p>
       <section className="contact-infos">
         <div>
           <MdAlternateEmail />
