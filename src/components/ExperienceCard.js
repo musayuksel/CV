@@ -15,16 +15,16 @@ export default function ExperienceCard({
     <li key={index}>{explanation}</li>
   ));
   return (
-    <section>
-      <h2>{role}</h2>
-      <h3>{organization}</h3>
+    <section className="experience-card">
+      <h2 className="role">{role}</h2>
+      <h3 className="organization">{organization}</h3>
       <DatesAndLocations
         startDate={startDate}
         endDate={endDate}
         location={location}
       />
       <Skills skills={skills} />
-      <ul>{explanationList}</ul>
+      <ul className="explanation-container">{explanationList}</ul>
     </section>
   );
 }
