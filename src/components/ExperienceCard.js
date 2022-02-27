@@ -16,8 +16,8 @@ export default function ExperienceCard({
   ));
   return (
     <section className="experience-card">
-      <h2 className="role">{role}</h2>
-      <h3 className="organization">{organization}</h3>
+      <h3 className="role">{role}</h3>
+      <h4 className="organization">{organization}</h4>
       <DatesAndLocations
         startDate={startDate}
         endDate={endDate}
