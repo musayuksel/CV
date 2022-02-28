@@ -3,7 +3,6 @@ import ExperienceCard from "./components/ExperienceCard";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Header from "./components/Header";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
 import TechSkillsBar from "./components/TechSkillsBar";
 function App() {
   return (
