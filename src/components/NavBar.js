@@ -11,13 +11,13 @@ export default function NavBar() {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#experiences">Experiences</a>
-        </li>
-        <li>
           <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#others">Others</a>
+          <a href="#experiences">Experiences</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#footer">Other2</a>
