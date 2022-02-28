@@ -5,8 +5,8 @@ import "../styles/aboutMe.css";
 
 export default function AboutMe() {
   return (
-    <section className="aboutme" id="about">
-      <h3>About me</h3>
+    <section className="aboutme">
+      {/* <h3>About me</h3> */}
       <p className="aboutme-text">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eligendi
         harum itaque cumque nihil, enim possimus, eos qui porro aspernatur
