@@ -1,0 +1,29 @@
+nav {
+  background-color: var(--header-bcg-color);
+  position: fixed;
+  padding: 1rem 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+nav li {
+  /* border: 1px solid red; */
+}
+nav a {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+nav a:hover {
+  background-color: #5b8fe4;
+  border-radius: 8px;
+}
