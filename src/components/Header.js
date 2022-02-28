@@ -6,11 +6,9 @@ export default function Header() {
   return (
     <header id="home">
       <NavBar />
+      <img src="./musa.png" alt="picture of musa" />
       <h1>Musa Yuksel</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni,
-        tenetur.
-      </p>
+      <p>Full Stack Web Devoloper</p>
     </header>
   );
 }
