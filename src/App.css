@@ -1,37 +1,59 @@
 :root {
   --primary-color: #01233f;
   --secondary-color: #016288;
+  --header-bcg-color: #4b73b5;
+  --card-shadow: #64646f33 0px 7px 29px 0px;
+  --card-padding: 3rem 2rem;
   /* --primary-color: #053974;
   --secondary-color: #0a1831; */
 }
-.App {
-  width: 95%;
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+h2 {
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 1rem 0;
+}
+/* main container */
+main {
+  width: 80%;
   margin: auto;
 }
-/* header styles */
-.contact-infos {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin: 1rem 0;
+/* header {
+  grid-area: header;
 }
-.contact-infos div {
-  display: flex;
-  align-items: center;
+main {
+  grid-area: main;
 }
-.contact-infos a,
-.contact-infos p {
-  color: var(--primary-color);
-  padding: 0.5rem;
-  text-decoration: none;
+.aside-info-container {
+  grid-area: aside;
+} */
+.life-motto,
+.tech-skills {
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+  padding: var(--card-padding);
 }
-.contact-infos svg {
-  color: var(--secondary-color);
+.App {
+  /* display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "header header"
+    "main aside"; */
+  /* width: 95%; */
+  margin: auto;
 }
+
 /*experience card styles  */
 .experience-card {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
   color: var(--secondary-color);
-  padding: 1rem 2rem;
+  padding: var(--card-padding);
+  margin: 1rem 0;
 }
 .role {
   color: var(--primary-color);
@@ -52,6 +74,7 @@
 }
 .dates-locations-container p {
   margin: 0 0.5rem;
+  font-style: italic;
 }
 .calender-icon {
   height: 2.5rem;
@@ -73,9 +96,4 @@ ul.skills-container li {
 ul.explanation-container {
   font-weight: 300;
   padding-left: 1rem;
-}
-@media only screen and (max-width: 900px) {
-  .contact-infos {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
