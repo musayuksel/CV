@@ -1,0 +1,37 @@
+/* header styles */
+.aboutme {
+  border-radius: 1rem;
+  box-shadow: var(--card-shadow);
+  padding: var(--card-padding);
+}
+.contact-infos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 1rem 0;
+}
+.contact-infos div {
+  display: flex;
+  align-items: center;
+}
+.contact-infos a,
+.contact-infos p {
+  color: var(--primary-color);
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.contact-infos svg {
+  color: var(--secondary-color);
+}
+.aboutme-text {
+  font-weight: 300;
+}
+@media only screen and (max-width: 900px) {
+  .contact-infos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 475px) {
+  .contact-infos {
+    grid-template-columns: 1fr;
+  }
+}
