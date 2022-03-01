@@ -29,7 +29,7 @@ function App() {
           role={"Traniee Developer"}
           organization={"Code Your Future(CYF)"}
           startDate={"Dec 2020"}
-          endDate={"Feb 2022"}
+          endDate={"Present"}
           location={"United Kingdom"}
           skills={[
             "JavaScript",
@@ -41,8 +41,7 @@ function App() {
             "CSS",
           ]}
           explanations={[
-            "Appointed to lead the Product Management & Development of a decision engine to automate the suitability and eligibility assessments in the CYF appli- cation process using AI based knowledge map.",
-            "Optimized the student selection procedure which will save hundreds of hours worth of volunteer time.",
+            "Code Your Future is not just an education but an amazing experience.",
           ]}
         />
         <ExperienceCard
@@ -87,6 +86,26 @@ function App() {
           ]}
         />
         <h2>VOLUNTEER EXPERIENCE</h2>
+        <ExperienceCard
+          role={"Volunteer"}
+          organization={"Code Your Future"}
+          startDate={"Mar 2022"}
+          endDate={"Recent"}
+          location={"United Kingdom"}
+          skills={[
+            "JavaScript",
+            "React",
+            "Express - Node.js",
+            "PostgresSQL",
+            "Git",
+            "HTML",
+            "CSS",
+          ]}
+          explanations={[
+            "It will always be a privilege to be a part of the Code Your Future project.",
+            "I want to bring a positive change in people’s lives irrespective of their backgrounds.",
+          ]}
+        />
         <ExperienceCard
           role={"Volunteer"}
           organization={"Driver Net"}
