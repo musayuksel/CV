@@ -161,7 +161,7 @@ function App() {
               "CSS",
             ]}
             explanations={[
-              "It will always be a privilege to be a part of the Code Your Future project.",
+              "It will always be a privilege to be a part of the Code Your Future.",
               "I want to bring a positive change in people’s lives irrespective of their backgrounds.",
             ]}
           />
@@ -173,7 +173,7 @@ function App() {
             location={"United Kingdom"}
             skills={["Figma"]}
             explanations={[
-              "I have volunteered at DriverNet to learn about British culture, improve my speaking skills and help people.",
+              "I have volunteered at DriverNet to help people, learn about culture and improve my speaking skills.",
               "Concentrating on Figma, I have helped in the product design process and in the field of manual testing.",
             ]}
           />
