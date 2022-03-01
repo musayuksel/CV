@@ -132,6 +132,12 @@ ul.explanation-container {
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.5rem;
 }
+/* Volunteer */
+.volunteer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+}
 /* Footer style */
 footer {
   background-color: var(--primary-color);
@@ -159,6 +165,11 @@ footer a {
 }
 .footer-links a:hover {
   transform: scale(1.25);
+}
+@media only screen and (max-width: 1200px) {
+  .volunteer {
+    grid-template-columns: 1fr;
+  }
 }
 @media only screen and (max-width: 750px) {
   .project-container {

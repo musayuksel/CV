@@ -85,39 +85,7 @@ function App() {
             "By serving as a pilot on a high-performance jet aircraft, I've gained many transferable skills such as leadership, teamwork, multitasking, communication.",
           ]}
         />
-        <h2>VOLUNTEER EXPERIENCE</h2>
-        <ExperienceCard
-          role={"Volunteer"}
-          organization={"Code Your Future"}
-          startDate={"Mar 2022"}
-          endDate={"Recent"}
-          location={"United Kingdom"}
-          skills={[
-            "JavaScript",
-            "React",
-            "Express - Node.js",
-            "PostgresSQL",
-            "Git",
-            "HTML",
-            "CSS",
-          ]}
-          explanations={[
-            "It will always be a privilege to be a part of the Code Your Future project.",
-            "I want to bring a positive change in people’s lives irrespective of their backgrounds.",
-          ]}
-        />
-        <ExperienceCard
-          role={"Volunteer"}
-          organization={"Driver Net"}
-          startDate={"Jun 2021"}
-          endDate={"Oct 2021"}
-          location={"United Kingdom"}
-          skills={["Figma"]}
-          explanations={[
-            "I have volunteered at DriverNet to learn about British culture, improve my speaking skills and help people.",
-            "Concentrating on Figma, I have helped in the product design process and in the field of manual testing.",
-          ]}
-        />
+
         {/* <h2 id="projects">PROJECTS</h2>
         <section className="project-container">
           <ExperienceCard
@@ -175,11 +143,45 @@ function App() {
             ]}
           />
         </section>
-
-        <h2>OTHERS</h2>
-        <section id="other">
-          {/* <Skills skills={["English", "Turkish"]} /> */}
+        <h2>VOLUNTEER EXPERIENCE</h2>
+        <section className="volunteer">
+          <ExperienceCard
+            role={"Volunteer"}
+            organization={"Code Your Future"}
+            startDate={"Mar 2022"}
+            endDate={"Recent"}
+            location={"United Kingdom"}
+            skills={[
+              "JavaScript",
+              "React",
+              "Express - Node.js",
+              "PostgresSQL",
+              "Git",
+              "HTML",
+              "CSS",
+            ]}
+            explanations={[
+              "It will always be a privilege to be a part of the Code Your Future project.",
+              "I want to bring a positive change in people’s lives irrespective of their backgrounds.",
+            ]}
+          />
+          <ExperienceCard
+            role={"Volunteer"}
+            organization={"Driver Net"}
+            startDate={"Jun 2021"}
+            endDate={"Oct 2021"}
+            location={"United Kingdom"}
+            skills={["Figma"]}
+            explanations={[
+              "I have volunteered at DriverNet to learn about British culture, improve my speaking skills and help people.",
+              "Concentrating on Figma, I have helped in the product design process and in the field of manual testing.",
+            ]}
+          />
         </section>
+        {/* <h2>OTHERS</h2>
+        <section id="other">
+          
+        </section> */}
       </main>
       <footer>
         <section className="footer-links">
