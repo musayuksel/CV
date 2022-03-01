@@ -27,9 +27,9 @@ export default function NavBar() {
         <li>
           <a href="#education">Education</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#other">Other</a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
