@@ -61,8 +61,8 @@ function App() {
           ]}
           explanations={[
             "As an Instructor Pilot, I was responsible for teaching the candidates the basic flight rules and correcting the mistakes with the most appropriate method.",
-            "As Senior Supervisor, I had a wide range of responsibilities such as following the flight plans of the candidates, solving their personnel problems outside of the flight, coordination with other units etc. ",
-            "In these roles,  I demonstrated very important skills that are easily transferable to working in a tech team like Coordination, Leadership, Teamwork, Problem Solving etc.",
+            "As Senior Supervisor, I had a wide range of responsibilities such as following the flight plans of the candidates, coordination with other units.",
+            "In these roles,  I demonstrated very important skills that are easily transferable to working in a tech team like Coordination, Leadership, Teamwork, Problem Solving.",
           ]}
         />
         <ExperienceCard
@@ -81,8 +81,8 @@ function App() {
             "Time managment",
           ]}
           explanations={[
-            "Working as a pilot is very difficult but exciting and fulfilling.",
-            "By serving as a pilot on a high-performance jet aircraft, I've gained many transferable skills such as leadership, teamwork, multitasking, communication.",
+            "Working as a pilot is very challenging but exciting and fulfilling.",
+            "By serving as a pilot on a high-performance jet aircraft, I've gained many transferable skills such as Leadership, Working in a Team, Multitasking, Communication.",
           ]}
         />
 
@@ -161,8 +161,9 @@ function App() {
               "CSS",
             ]}
             explanations={[
-              "It will always be a privilege to be a part of the Code Your Future.",
+              "It has been a privilege being part of Code Your Future.",
               "I want to bring a positive change in people’s lives irrespective of their backgrounds.",
+              "I am helping the new cohorts complete their Intro to Digital application steps.",
             ]}
           />
           <ExperienceCard
@@ -173,7 +174,7 @@ function App() {
             location={"United Kingdom"}
             skills={["Figma"]}
             explanations={[
-              "I have volunteered at DriverNet to help people, learn about culture and improve my speaking skills.",
+              "I have volunteered at DriverNet to help people, learn new cultures and improve my speaking skills.",
               "Concentrating on Figma, I have helped in the product design process and in the field of manual testing.",
             ]}
           />
