@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Header from "./components/Header";
 import TechSkillsBar from "./components/TechSkillsBar";
+import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
 function App() {
   return (
     <div className="App">
@@ -60,8 +61,8 @@ function App() {
             "Time managment",
           ]}
           explanations={[
-            "As an instructor pilot, I was responsible for teaching candidates to simplify the problems and to correct the mistakes made with the most appropriate method.",
-            "As Senior Supervisor, I had a wide range of responsibilities such as following the flight plans of the candidates, solving their personnel problems outside the flight.",
+            "As an Instructor Pilot, I was responsible for teaching the candidates the basic flight rules and correcting the mistakes with the most appropriate method.",
+            "As Senior Supervisor, I had a wide range of responsibilities such as following the flight plans of the candidates, solving their personnel problems outside of the flight, coordination with other units etc. ",
             "In these roles,  I demonstrated very important skills that are easily transferable to working in a tech team like Coordination, Leadership, Teamwork, Problem Solving etc.",
           ]}
         />
@@ -87,54 +88,100 @@ function App() {
         />
         <h2>VOLUNTEER EXPERIENCE</h2>
         <ExperienceCard
-          role={"Designer"}
+          role={"Volunteer"}
           organization={"Driver Net"}
           startDate={"Jun 2021"}
           endDate={"Oct 2021"}
           location={"United Kingdom"}
-          skills={["Figma", "Git"]}
+          skills={["Figma"]}
           explanations={[
-            "Appointed to lead the Product Management & Development of a decision engine to automate the suitability and eligibility assessments in the CYF appli- cation process using AI based knowledge map.",
-            "Optimized the student selection procedure which will save hundreds of hours worth of volunteer time.",
+            "I have volunteered at DriverNet to learn about British culture, improve my speaking skills and help people.",
+            "Concentrating on Figma, I have helped in the product design process and in the field of manual testing.",
           ]}
         />
-        <h2 id="projects">PROJECTS</h2>
+        {/* <h2 id="projects">PROJECTS</h2>
         <section className="project-container">
           <ExperienceCard
-            role={"Designer"}
-            organization={"Driver Net"}
-            startDate={"Jun 2021"}
-            endDate={"Oct 2021"}
+            role={"Goal App"}
+            organization={"Code Your Future"}
+            startDate={"Jan 2022"}
+            endDate={"Feb 2022"}
             location={"United Kingdom"}
-            skills={["Figma", "Git"]}
+            skills={[
+              "JavaScript",
+              "React",
+              "Express - Node.js",
+              "PostgresSQL",
+              "Slack API",
+              "Git",
+              "HTML",
+              "CSS",
+            ]}
             explanations={[
-              "Appointed to lead the Product Management & Development of a decision engine to automate the suitability and eligibility assessments in the CYF appli- cation process using AI based knowledge map.",
-              "Optimized the student selection procedure which will save hundreds of hours worth of volunteer time.",
+              "At CodeYourFuture we use daily standups, goal setting, and design thinking to continuously evaluate our work and plan improvements, and we want to teach our trainees this habit too.",
+              "We have created the GoalApp that has a web interface and also works with Slack. The users who spend their most of their time on Slack can keep track of their daily tasks on Slack.",
             ]}
           />
+        </section> */}
+        <h2 id="education">EDUCATION</h2>
+        <section className="education-container">
           <ExperienceCard
-            role={"Designer"}
-            organization={"Driver Net"}
-            startDate={"Jun 2021"}
-            endDate={"Oct 2021"}
+            role={""}
+            organization={"Code Your Future(CYF)"}
+            startDate={"Dec 2020"}
+            endDate={"Feb 2022"}
             location={"United Kingdom"}
-            skills={["Figma", "Git"]}
+            skills={[]}
+            explanations={["Traniee Developer"]}
+          />
+          <ExperienceCard
+            role={""}
+            organization={"Flight School"}
+            startDate={"Sep 2008"}
+            endDate={"May 2010"}
+            location={"Izmir, Turkey"}
+            skills={[]}
+            explanations={["Military Flight Training"]}
+          />
+          <ExperienceCard
+            role={""}
+            organization={"Turkish Air Force Acedemy"}
+            startDate={"Sep 2004"}
+            endDate={"AGU 2008"}
+            location={"Istanbul, Turkey"}
+            skills={[]}
             explanations={[
-              "Appointed to lead the Product Management & Development of a decision engine to automate the suitability and eligibility assessments in the CYF appli- cation process using AI based knowledge map.",
-              "Optimized the student selection procedure which will save hundreds of hours worth of volunteer time.",
+              "Bachelor's degree - Computer Engineering",
+              "Military Officer",
             ]}
           />
         </section>
 
-        <h2>LANGUAGES</h2>
-        <section>
-          <Skills skills={["English", "Turkish"]} />
-        </section>
-        <h2>LIFE PHILOSOPHY</h2>
-        <section className="life-motto">
-          <p>“Life is too short to be miserable.”</p>
+        <h2>OTHERS</h2>
+        <section id="other">
+          {/* <Skills skills={["English", "Turkish"]} /> */}
         </section>
       </main>
+      <footer>
+        <section className="footer-links">
+          <a
+            href="https://www.linkedin.com/in/musa-yuksel-625838205/"
+            target={"_blank"}
+          >
+            <BsLinkedin />
+          </a>
+          <a href="https://github.com/musayuksel" target={"_blank"}>
+            <BsGithub />
+          </a>
+          <a href="https://twitter.com/MusaYuxel" target={"_blank"}>
+            <BsTwitter />
+          </a>
+        </section>
+        <p>© Copyright 2022 Musa Yuksel</p>
+        <a href="https://github.com/musayuksel/CV" target={"_blank"}>
+          Codebase
+        </a>
+      </footer>
     </div>
   );
 }
