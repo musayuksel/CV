@@ -13,6 +13,17 @@ nav ul {
 }
 nav li {
   /* border: 1px solid red; */
+  padding: 1rem 0;
+}
+.menu {
+  cursor: pointer;
+  display: none;
+  justify-content: end;
+  padding: 0.5rem 1rem;
+}
+.menu svg {
+  width: 2rem;
+  height: 2rem;
 }
 nav a {
   color: white;
@@ -29,7 +40,16 @@ nav a:hover {
   border-radius: 8px;
 }
 @media only screen and (max-width: 750px) {
-  nav {
-    /* display: none; */
+  .menu {
+    display: flex;
+    /* padding: 1rem; */
+  }
+  nav ul {
+    display: none;
+  }
+  nav.open ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

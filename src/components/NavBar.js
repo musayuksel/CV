@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/navbar.css";
+import { MdOutlineMenu, MdClose } from "react-icons/md";
 export default function NavBar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <nav>
-      <ul>
+    <nav className={`${isMenuOpen ? "open" : ""}`}>
+      <div
+        className={`menu ${isMenuOpen ? "cross" : ""}`}
+        onClick={() => setIsMenuOpen((prev) => !prev)}
+      >
+        {!isMenuOpen ? <MdOutlineMenu /> : <MdClose />}
+      </div>
+      <ul onClick={() => setIsMenuOpen((prev) => !prev)}>
         <li>
-          <a href="#home">Home</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -17,10 +25,10 @@ export default function NavBar() {
           <a href="#experiences">Experiences</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
         </li>
         <li>
-          <a href="#footer">Other2</a>
+          <a href="#other">Other</a>
         </li>
       </ul>
     </nav>
