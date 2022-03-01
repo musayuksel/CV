@@ -8,10 +8,9 @@ export default function AboutMe() {
     <section className="aboutme">
       {/* <h3>About me</h3> */}
       <p className="aboutme-text">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eligendi
-        harum itaque cumque nihil, enim possimus, eos qui porro aspernatur
-        dignissimos impedit officia labore sit dolorum minima explicabo soluta
-        placeat!
+        I am recent graduate of Code Your Future. Prior to CYF I was in the Air
+        Force for 9 years as a Pilot and an Instructor Pilot. My passions
+        include cycling as I love nature and all things that fly.
       </p>
       <section className="contact-infos">
         <div>
