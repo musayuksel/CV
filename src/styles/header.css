@@ -1,8 +1,8 @@
 header {
   color: white;
-  /* background: var(--header-bcg-color) no-repeat top center; */
-  background: url("https://birchtree.nyc3.digitaloceanspaces.com/images/wwdc18/dev-blue.png")
-    no-repeat center center;
+  background: url("./background-img.png") no-repeat center center;
+  /* background: url("https://birchtree.nyc3.digitaloceanspaces.com/images/wwdc18/dev-blue.png")
+    no-repeat center center; */
   background-size: cover;
   display: flex;
   align-items: center;
