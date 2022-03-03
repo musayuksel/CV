@@ -41,7 +41,11 @@ function App() {
             "CSS",
           ]}
           explanations={[
-            "Code Your Future is not just an education but an amazing experience.",
+            // "Code Your Future is not just an education but an amazing experience.",
+            "Designing and developing front-end back-end applications.",
+            "Working on weekly projects to solidify newly learned technologies. (Several of my projects are available at my GitHub profile as below)",
+            "Learning many soft skills including teamwork, communication, problem-solving, presentation, pair programming.",
+            "Final project to delivered a MVP (minimum viable product) using agile methodology and Kanban framework in just four weeks.  To simplify the daily stand-up we built a Slack interface using Bolt.js and the Slack API. This meant that the users could easily keep track of their daily tasks with ease.",
           ]}
         />
         <ExperienceCard
@@ -57,7 +61,7 @@ function App() {
             "Coordination",
             "Critical Thinking",
             "Working in a Team",
-            "Time managment",
+            "Teamwork",
           ]}
           explanations={[
             "As an Instructor Pilot, I was responsible for teaching the candidates the basic flight rules and correcting the mistakes with the most appropriate method.",
@@ -77,7 +81,7 @@ function App() {
             "Problem Solving",
             "Coordination",
             "Critical Thinking",
-            "Working in a Team",
+            "Teamwork",
             "Time managment",
           ]}
           explanations={[
