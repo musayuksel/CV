@@ -1,7 +1,8 @@
 header {
   color: white;
-  background: var(--header-bcg-color) no-repeat top center;
-  /* background: url("../sky.jpeg") no-repeat top center; */
+  /* background: var(--header-bcg-color) no-repeat top center; */
+  background: url("https://birchtree.nyc3.digitaloceanspaces.com/images/wwdc18/dev-blue.png")
+    no-repeat center center;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -10,21 +11,40 @@ header {
   font-weight: 300;
   height: 400px;
   letter-spacing: 1px;
-  /* background-color: var(--header-bcg-color); */
   padding: 2rem 0;
+  position: relative;
   margin: 1rem 0;
-  /* margin-top: 2rem; */
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #102a5340;
 }
 header h1 {
   font-size: 3rem;
+  position: relative;
 }
 header p {
   letter-spacing: 1px;
+  position: relative;
   text-transform: uppercase;
   font-weight: 600;
 }
-header img {
-  /* height: 100px; */
-  width: 100px;
-  border-radius: 50%;
+.download-cv {
+  background-color: #faad17;
+  border-radius: 5px;
+  color: #fafafa;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.download-cv:hover {
+  background-color: #ffbd38;
 }
