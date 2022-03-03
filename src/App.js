@@ -5,11 +5,13 @@ import Skills from "./components/Skills";
 import Header from "./components/Header";
 import TechSkillsBar from "./components/TechSkillsBar";
 import { BsLinkedin, BsGithub, BsTwitter } from "react-icons/bs";
+import Projects from "./components/Projects";
 function App() {
   return (
     <div className="App">
       <Header />
       <main>
+        {/* <Projects /> */}
         <h2 id="about">ABOUT ME</h2>
         <AboutMe />
         <h2 id="skills">TECHNICAL SKILLS</h2>
@@ -24,72 +26,77 @@ function App() {
             <TechSkillsBar name={"Git"} percentage={70} />
           </ul>
         </section>
-        <h2 id="experiences">EXPERIENCES</h2>
-        <ExperienceCard
-          role={"Traniee Developer"}
-          organization={"Code Your Future(CYF)"}
-          startDate={"Dec 2020"}
-          endDate={"Present"}
-          location={"United Kingdom"}
-          skills={[
-            "JavaScript",
-            "React",
-            "Express - Node.js",
-            "PostgresSQL",
-            "Git",
-            "HTML",
-            "CSS",
-          ]}
-          explanations={[
-            // "Code Your Future is not just an education but an amazing experience.",
-            "Designing and developing front-end back-end applications.",
-            "Working on weekly projects to solidify newly learned technologies. (Several of my projects are available at my GitHub profile as below)",
-            "Learning many soft skills including teamwork, communication, problem-solving, presentation, pair programming.",
-            "Final project to delivered a MVP (minimum viable product) using agile methodology and Kanban framework in just four weeks.  To simplify the daily stand-up we built a Slack interface using Bolt.js and the Slack API. This meant that the users could easily keep track of their daily tasks with ease.",
-          ]}
-        />
-        <ExperienceCard
-          role={"Instructor Pilot & Senior Supervisor"}
-          organization={"Turkish Air Force"}
-          startDate={"Jun 2014"}
-          endDate={"Jul 2019"}
-          location={"Izmir,Turkey"}
-          skills={[
-            "Leadership",
-            "Multitasking",
-            "Problem Solving",
-            "Coordination",
-            "Critical Thinking",
-            "Working in a Team",
-            "Teamwork",
-          ]}
-          explanations={[
-            "As an Instructor Pilot, I was responsible for teaching the candidates the basic flight rules and correcting the mistakes with the most appropriate method.",
-            "As Senior Supervisor, I had a wide range of responsibilities such as following the flight plans of the candidates, coordination with other units.",
-            "In these roles,  I demonstrated very important skills that are easily transferable to working in a tech team like Coordination, Leadership, Teamwork, Problem Solving.",
-          ]}
-        />
-        <ExperienceCard
-          role={"Fighter Pilot"}
-          organization={"Turkish Air Force"}
-          startDate={"Jun 2010"}
-          endDate={"May 2014"}
-          location={"Eskisehir,Turkey"}
-          skills={[
-            "Leadership",
-            "Multitasking",
-            "Problem Solving",
-            "Coordination",
-            "Critical Thinking",
-            "Teamwork",
-            "Time managment",
-          ]}
-          explanations={[
-            "Working as a pilot is very challenging but exciting and fulfilling.",
-            "By serving as a pilot on a high-performance jet aircraft, I've gained many transferable skills such as Leadership, Working in a Team, Multitasking, Communication.",
-          ]}
-        />
-
+        <section className="experiences-container">
+          <h2 id="experiences">EXPERIENCES</h2>
+          <ExperienceCard
+            role={"Traniee Developer"}
+            organization={"Code Your Future(CYF)"}
+            startDate={"Dec 2020"}
+            endDate={"Present"}
+            location={"United Kingdom"}
+            skills={[
+              "JavaScript",
+              "React",
+              "Express - Node.js",
+              "PostgresSQL",
+              "Git",
+              "HTML",
+              "CSS",
+            ]}
+            explanations={[
+              // "Code Your Future is not just an education but an amazing experience.",
+              "Designing and developing front-end back-end applications.",
+              "Working on weekly projects to solidify newly learned technologies. (Several of my projects are available at my GitHub profile as below)",
+              "Learning many soft skills including teamwork, communication, problem-solving, presentation, pair programming.",
+              "Final project to delivered a MVP (minimum viable product) using agile methodology and Kanban framework in just four weeks.  To simplify the daily stand-up we built a Slack interface using Bolt.js and the Slack API. This meant that the users could easily keep track of their daily tasks with ease.",
+            ]}
+          />
+          <ExperienceCard
+            role={"Instructor Pilot & Senior Supervisor"}
+            organization={"Turkish Air Force"}
+            startDate={"Jun 2014"}
+            endDate={"Jul 2019"}
+            location={"Izmir,Turkey"}
+            skills={
+              [
+                // "Leadership",
+                // "Multitasking",
+                // "Problem Solving",
+                // "Coordination",
+                // "Critical Thinking",
+                // "Working in a Team",
+                // "Teamwork",
+              ]
+            }
+            explanations={[
+              "As an Instructor Pilot, I was responsible for teaching the candidates the basic flight rules and correcting the mistakes with the most appropriate method.",
+              "As Senior Supervisor, I had a wide range of responsibilities such as following the flight plans of the candidates, coordination with other units.",
+              "In these roles,  I demonstrated very important skills that are easily transferable to working in a tech team like Coordination, Leadership, Teamwork, Problem Solving.",
+            ]}
+          />
+          <ExperienceCard
+            role={"Fighter Pilot"}
+            organization={"Turkish Air Force"}
+            startDate={"Jun 2010"}
+            endDate={"May 2014"}
+            location={"Eskisehir,Turkey"}
+            skills={
+              [
+                // "Leadership",
+                // "Multitasking",
+                // "Problem Solving",
+                // "Coordination",
+                // "Critical Thinking",
+                // "Teamwork",
+                // "Time managment",
+              ]
+            }
+            explanations={[
+              "Working as a pilot is very challenging but exciting and fulfilling.",
+              "By serving as a pilot on a high-performance jet aircraft, I've gained many transferable skills such as Leadership, Working in a Team, Multitasking, Communication.",
+            ]}
+          />
+        </section>
         {/* <h2 id="projects">PROJECTS</h2>
         <section className="project-container">
           <ExperienceCard
