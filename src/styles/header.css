@@ -48,3 +48,18 @@ header p {
 .download-cv:hover {
   background-color: #ffbd38;
 }
+@media only screen and (max-width: 1024px) {
+  header {
+    background-size: 120%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  header {
+    background-size: 175%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header {
+    background-size: 250%;
+  }
+}
