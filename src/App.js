@@ -11,7 +11,6 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        {/* <Projects /> */}
         <h2 id="about">ABOUT ME</h2>
         <AboutMe />
         <h2 id="skills">TECHNICAL SKILLS</h2>
@@ -97,30 +96,29 @@ function App() {
             ]}
           />
         </section>
-        {/* <h2 id="projects">PROJECTS</h2>
+        <h2 id="projects">PROJECTS</h2>
         <section className="project-container">
-          <ExperienceCard
-            role={"Goal App"}
-            organization={"Code Your Future"}
-            startDate={"Jan 2022"}
-            endDate={"Feb 2022"}
-            location={"United Kingdom"}
-            skills={[
-              "JavaScript",
-              "React",
-              "Express - Node.js",
-              "PostgresSQL",
-              "Slack API",
-              "Git",
-              "HTML",
-              "CSS",
-            ]}
-            explanations={[
-              "At CodeYourFuture we use daily standups, goal setting, and design thinking to continuously evaluate our work and plan improvements, and we want to teach our trainees this habit too.",
-              "We have created the GoalApp that has a web interface and also works with Slack. The users who spend their most of their time on Slack can keep track of their daily tasks on Slack.",
-            ]}
+          <Projects
+            imgLink={"htct.png"}
+            explanation={"Manage your daily stand-up either Slack or Web App."}
+            githubLink={
+              "https://github.com/musayuksel/Goal-app-CYF-final-project"
+            }
+            liveLink={"goal-app-cyf-final-project.herokuapp.com/"}
           />
-        </section> */}
+          <Projects
+            imgLink={"quote.png"}
+            explanation={"Generate a random quote for yourself!"}
+            githubLink={"https://github.com/musayuksel/quote-server-frontend"}
+            liveLink={"https://musayuksel-quote-server.netlify.app/"}
+          />
+          <Projects
+            imgLink={"quote.png"}
+            explanation={"Fallow your "}
+            githubLink={"https://github.com/musayuksel/quote-server-frontend"}
+            liveLink={"https://musayuksel-quote-server.netlify.app/"}
+          />
+        </section>
         <h2 id="education">EDUCATION</h2>
         <section className="education-container">
           <ExperienceCard
