@@ -113,10 +113,16 @@ function App() {
             liveLink={"https://musayuksel-quote-server.netlify.app/"}
           />
           <Projects
-            imgLink={"quote.png"}
-            explanation={"Fallow your "}
-            githubLink={"https://github.com/musayuksel/quote-server-frontend"}
-            liveLink={"https://musayuksel-quote-server.netlify.app/"}
+            imgLink={"hotel.png"}
+            explanation={"A hotel booking application in React."}
+            githubLink={"https://github.com/musayuksel/cyf-hotel-react"}
+            liveLink={"https://cyf-musayuksel-hotel-react.netlify.app/"}
+          />
+          <Projects
+            imgLink={"baby.png"}
+            explanation={"Baby name picker in React."}
+            githubLink={"https://github.com/musayuksel/baby-names-react"}
+            liveLink={"https://cyf-musayuksel-baby-names.netlify.app/"}
           />
         </section>
         <h2 id="education">EDUCATION</h2>
