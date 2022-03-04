@@ -47,6 +47,9 @@ export default function NavBar() {
           <a href="#experiences">Experiences</a>
         </li>
         <li>
+          <a href="#projects">Portfolio</a>
+        </li>
+        <li>
           <a href="#education">Education</a>
         </li>
         {/* <li>
