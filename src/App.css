@@ -141,8 +141,9 @@ ul.explanation-container {
 }
 .project-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: min(1rem);
 }
 /* Volunteer */
 .volunteer {
@@ -178,7 +179,11 @@ footer a {
 .footer-links a:hover {
   transform: scale(1.25);
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1380px) {
+  .project-container {
+    grid-template-columns: 1fr 1fr;
+    /* justify-items: center; */
+  }
 }
 @media only screen and (max-width: 750px) {
   .volunteer {
