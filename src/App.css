@@ -182,7 +182,11 @@ footer a {
 @media only screen and (max-width: 1380px) {
   .project-container {
     grid-template-columns: 1fr 1fr;
-    /* justify-items: center; */
+  }
+}
+@media only screen and (max-width: 880px) {
+  .project-container {
+    grid-template-columns: 1fr;
   }
 }
 @media only screen and (max-width: 750px) {
@@ -198,10 +202,7 @@ footer a {
   #experiences {
     grid-column: 1/2;
   }
-  .project-container {
-    /* display: none; */
-    grid-template-columns: 1fr;
-  }
+
   .tech-skills ul {
     grid-template-columns: 1fr;
   }
