@@ -166,19 +166,10 @@ function App() {
             startDate={"Mar 2022"}
             endDate={"Recent"}
             location={"United Kingdom"}
-            skills={[
-              "JavaScript",
-              "React",
-              "Express - Node.js",
-              "PostgresSQL",
-              "Git",
-              "HTML",
-              "CSS",
-            ]}
+            skills={["JavaScript", "HTML", "CSS"]}
             explanations={[
-              "It has been a privilege being part of Code Your Future.",
-              "I want to bring a positive change in people’s lives irrespective of their backgrounds.",
-              "I am helping the new cohorts complete their Intro to Digital application steps.",
+              "Helping the new cohorts complete their Intro to Digital application steps.",
+              "Reviewing HTML, CSS, JavaScript projects/stages and giving feedback.",
             ]}
           />
           <ExperienceCard
@@ -189,8 +180,8 @@ function App() {
             location={"United Kingdom"}
             skills={["Figma"]}
             explanations={[
-              "I have volunteered at DriverNet to help people, learn new cultures and improve my speaking skills.",
-              "Concentrating on Figma, I have helped in the product design process and in the field of manual testing.",
+              "Concentrated on Figma and made UI/UX improvements in the product design process.",
+              "Attended the business meeting as a motivational",
             ]}
           />
         </section>
