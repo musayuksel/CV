@@ -35,19 +35,21 @@ function App() {
             location={"United Kingdom"}
             skills={[
               "JavaScript",
-              "React",
-              "Express - Node.js",
+              "ReactJS",
+              "Node.js",
+              "ExpressJS",
               "PostgresSQL",
               "Git",
               "HTML",
               "CSS",
+              "Figma",
             ]}
             explanations={[
               // "Code Your Future is not just an education but an amazing experience.",
               "Designing and developing front-end back-end applications.",
-              "Working on weekly projects to solidify newly learned technologies. (Several of my projects are available at my GitHub profile as below)",
+              "Working on weekly projects to solidify newly learned technologies.(All of my projects are available on my Github profile.)",
               "Learning many soft skills including teamwork, communication, problem-solving, presentation, pair programming.",
-              "Final project to delivered a MVP (minimum viable product) using agile methodology and Kanban framework in just four weeks.  To simplify the daily stand-up we built a Slack interface using Bolt.js and the Slack API. This meant that the users could easily keep track of their daily tasks with ease.",
+              ,
             ]}
           />
           <ExperienceCard
@@ -100,7 +102,9 @@ function App() {
         <section className="project-container">
           <Projects
             imgLink={"htct.png"}
-            explanation={"Manage your daily stand-up either Slack or Web App."}
+            explanation={
+              "A group project that allows trainees to follow their daily stand-ups more effectively and retrospectively."
+            }
             githubLink={
               "https://github.com/musayuksel/Goal-app-CYF-final-project"
             }
@@ -168,8 +172,8 @@ function App() {
             location={"United Kingdom"}
             skills={["JavaScript", "HTML", "CSS"]}
             explanations={[
-              "Helping the new cohorts complete their Intro to Digital application steps.",
-              "Reviewing HTML, CSS, JavaScript projects/stages and giving feedback.",
+              "Helping the next intake of cohorts to complete the Intro to Digital application process.",
+              " Reviewing HTML, CSS, JavaScript projects/stages and giving constructive feedback.",
             ]}
           />
           <ExperienceCard
