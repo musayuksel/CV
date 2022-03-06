@@ -10,7 +10,7 @@ export default function Header() {
       <p>Full Stack Web Devoloper</p>
       <a
         className="download-cv"
-        href="https://drive.google.com/file/d/1oQ-KyjEeJ_wayq8xyo-2gYsRiqN7zfWZ/view?usp=sharing"
+        href="https://drive.google.com/file/d/1T3Kff9q5IGl1SHwTc7YK2uNe71poy6io/view?usp=sharing"
         target={"_blank"}
       >
         Download CV
