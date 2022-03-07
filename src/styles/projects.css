@@ -4,7 +4,7 @@ div.item {
   background-size: 125%;
 }
 .item {
-  width: 400px;
+  width: 90%;
   height: 400px;
   background-color: white;
   border-radius: 0.5rem;
@@ -14,7 +14,6 @@ div.item {
   overflow: hidden;
   box-shadow: 2px 3px 10px #444444;
 }
-
 .item .overlay {
   color: #000;
   width: 100%;
