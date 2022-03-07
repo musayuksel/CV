@@ -144,6 +144,11 @@ ul.explanation-container {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: min(1rem);
+
+  /* "fists first first"
+    "second second second"
+    "third third third"
+    "fourth fourth fourth"; */
 }
 /* Volunteer */
 .volunteer {
@@ -179,12 +184,12 @@ footer a {
 .footer-links a:hover {
   transform: scale(1.25);
 }
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1220px) {
   .project-container {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 810px) {
   .project-container {
     grid-template-columns: 1fr;
   }
