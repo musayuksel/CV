@@ -108,7 +108,7 @@ function App() {
             githubLink={
               "https://github.com/musayuksel/Goal-app-CYF-final-project"
             }
-            liveLink={"goal-app-cyf-final-project.herokuapp.com/"}
+            liveLink={"https://goal-app-cyf-final-project.herokuapp.com"}
           />
           <Projects
             imgLink={"quote.png"}
