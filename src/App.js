@@ -186,7 +186,7 @@ function App() {
             skills={["Figma"]}
             explanations={[
               "Concentrated on Figma and made UI/UX improvements in the product design process.",
-              "Attended the business meeting as a motivational",
+              "Attended the business meeting as a motivational speaker.",
             ]}
           />
         </section>
