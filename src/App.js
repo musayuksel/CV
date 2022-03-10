@@ -54,11 +54,11 @@ function App() {
             ]}
           />
           <ExperienceCard
-            role={"Instructor Pilot & Senior Supervisor"}
+            role={"Fighter Pilot & Instructor Pilot"}
             organization={"Turkish Air Force"}
-            startDate={"Jun 2014"}
+            startDate={"Jun 2010"}
             endDate={"Jul 2019"}
-            location={"Izmir,Turkey"}
+            location={"Turkey"}
             skills={
               [
                 // "Leadership",
@@ -71,33 +71,10 @@ function App() {
               ]
             }
             explanations={[
-              "As an Instructor Pilot, I was responsible for teaching the candidates the basic flight rules and correcting the mistakes with the most appropriate method.",
-              "As Senior Supervisor, I had a wide range of responsibilities such as following the flight plans of the candidates, coordination with other units.",
-              "In these roles,  I demonstrated very important skills that are easily transferable to working in a tech team like Coordination, Leadership, Teamwork, Problem Solving.",
+              "In highly dynamic and often stressful conditions, I have completed approximately 1000 hours of well-executed flight, focusing on accurate and continuous communications with my mission commander, whilst readily assimilating flight-critical procedures \& operations, working with complex technologies that are continuously developing",
             ]}
           />
-          <ExperienceCard
-            role={"Fighter Pilot"}
-            organization={"Turkish Air Force"}
-            startDate={"Jun 2010"}
-            endDate={"May 2014"}
-            location={"Eskisehir,Turkey"}
-            skills={
-              [
-                // "Leadership",
-                // "Multitasking",
-                // "Problem Solving",
-                // "Coordination",
-                // "Critical Thinking",
-                // "Teamwork",
-                // "Time managment",
-              ]
-            }
-            explanations={[
-              "Working as a pilot is very challenging but exciting and fulfilling.",
-              "By serving as a pilot on a high-performance jet aircraft, I've gained many transferable skills such as Leadership, Working in a Team, Multitasking, Communication.",
-            ]}
-          />
+          
         </section>
         <h2 id="projects">PROJECTS</h2>
         <section className="project-container">
