@@ -23,6 +23,7 @@ function App() {
             <TechSkillsBar name={"HTML"} percentage={80} />
             <TechSkillsBar name={"CSS"} percentage={80} />
             <TechSkillsBar name={"Git"} percentage={70} />
+            {/* <TechSkillsBar name={"Git"} percentage={70} /> */}
           </ul>
         </section>
         <section className="experiences-container">
@@ -48,7 +49,7 @@ function App() {
               // "Code Your Future is not just an education but an amazing experience.",
               "Designing and developing front-end back-end applications.",
               "Working on weekly projects to solidify newly learned technologies.(All of my projects are available on my Github profile.)",
-              "Learning many soft skills including teamwork, communication, problem-solving, presentation, pair programming.",
+              "Putting my soft skills into practice through frequent pair programming sessions, enhancing my problem solving and presentation skills.",
               ,
             ]}
           />
@@ -138,7 +139,7 @@ function App() {
             endDate={"Feb 2022"}
             location={"United Kingdom"}
             skills={[]}
-            explanations={["Traniee Developer"]}
+            explanations={["Trainee Developer"]}
           />
           <ExperienceCard
             role={""}
