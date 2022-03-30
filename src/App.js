@@ -71,10 +71,9 @@ function App() {
               ]
             }
             explanations={[
-              "In highly dynamic and often stressful conditions, I have completed approximately 1000 hours of well-executed flight, focusing on accurate and continuous communications with my mission commander, whilst readily assimilating flight-critical procedures \& operations, working with complex technologies that are continuously developing",
+              "In highly dynamic and often stressful conditions, I have completed approximately 1000 hours of well-executed flight, focusing on accurate and continuous communications with my mission commander, whilst readily assimilating flight-critical procedures & operations, working with complex technologies that are continuously developing",
             ]}
           />
-          
         </section>
         <h2 id="projects">PROJECTS</h2>
         <section className="project-container">
@@ -87,6 +86,14 @@ function App() {
               "https://github.com/musayuksel/Goal-app-CYF-final-project"
             }
             liveLink={"https://goal-app-cyf-final-project.herokuapp.com"}
+          />
+          <Projects
+            imgLink={"shoe.png"}
+            explanation={
+              "A full-stack e-commerce web application (MVP) that enables shoe shopping for users... "
+            }
+            githubLink={"https://github.com/musayuksel/golden-shoe"}
+            liveLink={"https://musa-golden-shoe.herokuapp.com/"}
           />
           <Projects
             imgLink={"quote.png"}
